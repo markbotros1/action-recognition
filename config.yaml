@@ -1,0 +1,24 @@
+# Initial Settings
+video_dir: 'data/train/'
+data_dir: 'data/'
+helmets: 'train_baseline_helmets.csv'
+metadata: 'train_video_metadata.csv'
+labels: 'train_labels.csv'
+parse_cols_m: ['start_time', 'end_time', 'snap_time']
+parse_cols_l: ['datetime']
+
+# Dataset Settings
+img_size: 224
+start: -8
+stop: 8
+interval: 2
+n_labels: 3
+batch_size: 4
+
+# Training Settings
+epochs: 1
+train_iters: 1000
+eval_iters: 10
+eval_every: 1
+grad_accum_iter: 4
+device: 'cpu'

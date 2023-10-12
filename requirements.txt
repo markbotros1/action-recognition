@@ -1,0 +1,17 @@
+--find-links https://download.pytorch.org/whl/cu118
+torch
+torchvision
+torchaudio
+
+numpy>=1.20.0
+pandas==2.0.3
+tqdm==4.65.0
+pyyaml
+
+scikit_learn==1.2.2
+imbalanced-learn
+
+evaluate
+transformers>=4.30.0
+
+opencv-python
