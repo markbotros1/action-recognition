@@ -18,7 +18,7 @@ Assuming you have docker installed:
 2. Store data in project directory
    
         ├── ActionRecognition           <- Project directory
-        │    ├── data                   <- Makes src a Python module
+        │    ├── data                   <- Data directory
         │         ├── ...               <- Data files
             
 3. Build docker image
