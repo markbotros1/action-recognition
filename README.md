@@ -23,17 +23,17 @@ Assuming you have docker installed:
             
 3. Build docker image
 ```
-$cd path/to/ActionRecognition
-$docker build -t action-rec:latest .
+cd path/to/ActionRecognition
+docker build -t action-rec:latest .
 ```
 4. Run docker container
 ```
-$docker run -v $(pwd)/data:/usr/src/data -v $(pwd)/models:/usr/src/models -it action-rec:latest sh
+docker run -v $(pwd)/data:/usr/src/data -v $(pwd)/models:/usr/src/models -it action-rec:latest sh
 ```
 
 5. Within container: Run inference
 ```
-$python inference.py
+python inference.py
 ```
 
 Project Organization
